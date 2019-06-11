@@ -35,7 +35,7 @@ body{
 
 .first h2{
     margin-left: 17%;
-    margin-top: -8em;
+    margin-top: -10em;
     position: fixed;
     font-weight: bolder;
     cursor: pointer;
@@ -82,18 +82,22 @@ body{
     display: block;
     font-size: 52px;
     font-weight: bold;
-    margin-top: 8%;
+    margin-top: 5%;
+    cursor: pointer;
+    text-decoration: none;
    
 }
 
 .div-two{
-    margin-top: 11%;
+    margin-top: 7%;
     margin-left: 21%;
 }
 
 .div-two a{
     font-weight: lighter;
     font-size: 23px;
+    cursor: pointer;
+    text-decoration: none;
     
 }
 .second img{
@@ -162,7 +166,6 @@ body{
 
 .fourth div{
     display: inline-flex;
-    width: 92em;
     text-align: center;
     justify-content: center;
 }
@@ -184,14 +187,14 @@ body{
     width: -webkit-fill-available;
     animation: fadeIn 3s ease-in-out;
     opacity: 1;
-    margin: 90em 0 0 0;
+    margin: 90em 0 0 5em;
     position: relative;
 }
 
 .fifth h1{
     font-size: 4em;
     opacity: 1;
-    margin-left: 17%;
+    margin-left: 12%;
     margin-top: -6%;
 }
 
@@ -201,21 +204,21 @@ body{
     opacity: 1.0;
     margin-top: -1.5em;
     max-width: 9em;
-    margin-left: 17%;
+    margin-left: 12.5%;
 }
 
 #six{
     width: -webkit-fill-available;
     animation: fadeIn 3s ease-in-out;
     opacity: 1;
-    margin: 40em 0 20em 0;
+    margin: 40em 0 20em 5em;
     position: relative;
 }
 
 .sixth h1{
     font-size: 4em;
     opacity: 1;
-    margin-left: 17%;
+    margin-left: 12%;
     margin-top: -6%;
 }
 
@@ -224,7 +227,7 @@ body{
     font-size: 34px;
     opacity: 1.0;
     margin-top: -1.5em;
-    margin-left: 17%;
+    margin-left: 12.5%;
 }
 
 #textFive a{
@@ -239,13 +242,14 @@ body{
 
 #textSix{
     margin-top: 5%;
-    margin-left: 17%;
+    margin-left: 12.5%;
 }
 
 #textSix a{
     font-weight: lighter;
     font-size: 17px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 #textSix a:hover{
@@ -255,7 +259,7 @@ body{
 #textThree{
     display: block;
     text-align: center;
-    margin: 0 0 0 -1%;
+    margin: 0 0 0 6%;
     position: absolute;
     width: -webkit-fill-available;
 }
@@ -298,7 +302,7 @@ body{
     margin-left: 13%;
     margin-top: 1em;
     margin-bottom: 3em;
-    width: 62%;
+    width: 50%;
     opacity: 1;
     animation: fadeIn 3s ease-in-out;
 }

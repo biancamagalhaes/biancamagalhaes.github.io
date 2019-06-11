@@ -40,7 +40,6 @@ if( w > 429){
         }
     
         if(top >= 250 && top < 550){
-            console.log("alou")
             document.getElementById("textTwo").style.display = "block";
             document.getElementById("textTwo").style.margin = "17em 0 0 17%";
             document.getElementById("textTwo").style.animation ="fadeIn 3s ease-in-out";
@@ -54,7 +53,6 @@ if( w > 429){
         }
     
         if(top >= 590 && top < 850){
-            console.log("alou")
             document.getElementById("fourrth").style.margin = "40em 0 40em 0";
             document.getElementById("fourrth").style.animation ="fadeIn 3s ease-in-out";
             document.getElementById("fourrth").style.opacity = "1";
@@ -66,12 +64,11 @@ if( w > 429){
         }
     
         if(top >= 905 && top < 1200){
-            console.log("alou")
-            document.getElementById("fif").style.margin = "60em 0 0 0";
+            document.getElementById("fif").style.margin = "60em 0 0 5em";
             document.getElementById("fif").style.animation ="fadeIn 3s ease-in-out";
             document.getElementById("fif").style.opacity = "1";
         }else if (top < 870){
-            document.getElementById("fif").style.margin = "90em 0 0 0";
+            document.getElementById("fif").style.margin = "90em 0 0 5em";
         }else if(top >= 1200 ){
             document.getElementById("fif").style.animation ="fadeOut .5s ease-in-out";
             document.getElementById("fif").style.opacity = "0";
