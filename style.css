@@ -65,7 +65,7 @@ body {
 }
 
 .first h1 {
-  font-size: 4em;
+  font-size: 3em;
   opacity: 1;
   animation: fadeIn 3s ease-in-out;
 }
@@ -203,7 +203,7 @@ body {
 }
 
 .third h1 {
-  font-size: 4em;
+  font-size: 3em;
   opacity: 1;
 }
 
@@ -222,7 +222,7 @@ body {
 }
 
 .fourth h1 {
-  font-size: 4em;
+  font-size: 3em;
   opacity: 1;
 }
 
@@ -235,7 +235,7 @@ body {
 
 .fourth h2 {
   font-weight: bolder;
-  color: #82597394;
+  color: #825973fa;
 }
 
 .fourth img {
@@ -256,7 +256,7 @@ body {
 }
 
 .sixth h1 {
-  font-size: 4em;
+  font-size: 3em;
   opacity: 1;
 }
 
@@ -322,58 +322,41 @@ body {
 }
 
 @media screen and (max-width: 429px) {
-  section {
-    height: 42em;
-    overflow-x: hidden;
+  .containerSection {
+    padding: 10vh 4vw;
   }
 
-  .first h2 {
-    margin-left: 3%;
-    margin-top: 2em;
-  }
-
-  .first h1 {
-    font-size: 2em;
-  }
-
-  .first h3 {
-    font-size: 1em;
-    z-index: 1;
-  }
-
-  #textOne {
-    margin-top: 25%;
-    position: absolute;
-    z-index: 1;
-  }
-
-  .third h1 {
-    font-size: 2em;
-  }
-
-  .third p {
-    font-size: large;
-    width: 15em;
-    margin-top: 4em;
-  }
-
-  #menu {
-    width: 5em;
-    margin-top: 25em;
-  }
-
-  #linkedin {
+  .containerMenu {
     display: none;
   }
 
-  #cubos {
-    float: right;
-    margin-left: 7.1em;
-    margin-top: 15.2em;
-    width: 83%;
-    height: 36%;
+  .first h1 {
+    font-size: 2.8em;
+  }
+
+  #textThree {
     display: flex;
-    z-index: 0;
-    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: lighter;
+  }
+
+  #fourrth {
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+  }
+
+  .fourth div {
+    flex-direction: column;
+  }
+
+  #sobre {
+    margin-top: 10vh;
+    margin-bottom: 0vh;
+  }
+
+  #six {
+    margin-top: 0vh;
+    margin-bottom: 10vh;
   }
 }
