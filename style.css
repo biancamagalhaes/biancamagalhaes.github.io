@@ -138,6 +138,10 @@ body {
   text-decoration: none;
 }
 
+#myPage {
+  margin-bottom: 10vh;
+}
+
 .div-two {
   margin-top: 7%;
   margin-left: 21%;
